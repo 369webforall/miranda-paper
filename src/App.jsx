@@ -81,11 +81,11 @@ const App = () => {
               </p>
             </div>
           </section>
-
-          <h1 className="text-[700px]/[600px] bg-[#1c1c19] text-[#C4BCB3] w-[96%] ml-[2%] font-canopee tracking-tighter font-thin text-center absolute">
+          <h1 className="text-[700px]/[600px] bg-[#1c1c19] text-[#C4BCB3] w-[96%] ml-[2%] font-Canopee tracking-tighter font-thin text-center">
             MIRANDA
           </h1>
 
+          {/* start new section here */}
           <section></section>
         </div>
       </div>
