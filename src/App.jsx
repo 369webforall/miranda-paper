@@ -126,8 +126,75 @@ const App = () => {
           <img
             src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png"
             alt="website"
-            className="h-[400px] absolute top-10 right-6"
+            className="h-[450px] absolute top-10 right-6"
           ></img>
+        </section>
+
+        <section className="w-full flex items-center justify-between bg-[#C4BCB3] px-5">
+          <div className="w-[60%] border-[#938D86] border-r-2 px-[60px] py-[80px] h-full">
+            <div className="flex justify-between items-stretch my-5">
+              <div className="w-50%] border-[#938D86] border-r-2  px-4 mr-5">
+                <h2 className="font-CondMedium text-6xl mb-5">
+                  UPCOMMING NEXT
+                </h2>
+                <h3 className="mb-10 font-NewLight text-4xl font-normal">
+                  Fresh entry - A selected
+                  <br /> work from the latest - <br /> digital releases.
+                </h3>
+
+                <h5 className=" font-NewLight font-medium ">
+                  {' '}
+                  <span className="font-CondMedium text-lg ml-2">
+                    TIP!
+                  </span>{' '}
+                  Click on the image to explore
+                </h5>
+              </div>
+              <div className="w-[50%] px-4">
+                <div className="h-[60%] overflow-hidden">
+                  <img
+                    src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/645b5c79f349770ebcc28ec4_thumbnail-small.webp?"
+                    alt="table lamp"
+                    className="w-full h-full object-cover hover:scale-110 transition-all cursor-pointer"
+                  />
+                </div>
+                <h2 className="font-Canopee mt-3 text-4xl font-semibold flex items-center gap-2">
+                  UNEXPECTED TIME
+                </h2>
+                <p className="mt-4 font-CondMedium text-2xl font-thin text-[#383733]">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                  ipsa doloribus a dolorem ratione minus voluptas totam ullam
+                  facilis alias!
+                </p>
+              </div>
+            </div>
+            <div className="mt-10">
+              <img
+                src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c679f33f67d3dd00b04b4_avatar-3.jpeg"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
+          <div className="w-[40%]">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
+              obcaecati. Ut tempora doloribus consequatur odio perspiciatis
+              neque minima sapiente delectus. <br />
+              <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Tempore ducimus exercitationem tenetur minima, nihil reprehenderit
+              sapiente consequatur laboriosam quae cupiditate velit impedit eum
+              quisquam excepturi.
+            </p>
+            <div>
+              <img
+                src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/61001a3509319b6ae39e156b_arrow-long.svg"
+                alt=""
+              />
+              <h1>All Work</h1>
+            </div>
+          </div>
         </section>
       </div>
     </>
