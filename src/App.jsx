@@ -118,6 +118,17 @@ const App = () => {
             </h1>
           </div>
         </section>
+
+        <section className="py-10 bg-[#C5BEB4] relative">
+          <h1 className="uppercase font-Canopee bg-[#1c1c19] text-[550px]/[500px] tracking-[-10px] text-[#C4BCB3] w-fit font-thin ml-[2%] px-[20px]">
+            Website
+          </h1>
+          <img
+            src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png"
+            alt="website"
+            className="h-[400px] absolute top-10 right-6"
+          ></img>
+        </section>
       </div>
     </>
   );
