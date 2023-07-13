@@ -214,7 +214,62 @@ const App = () => {
         </section>
 
         {/* start new section here */}
-        {/* use custom css for animation check in index.css */}
+        <section className="bg-[#C4BCB3] w-full h-[420px] flex items-center justify-between py-10 px-12">
+          <div className="w-[30%] h-full">
+            <div className="h-[60%] overflow-hidden">
+              <img
+                src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/647dc0777b1a5df29f8e5a58_thumbnail-small.webp?"
+                alt="table lamp"
+                className="w-full h-full object-cover hover:scale-110 transition-all cursor-pointer"
+              />
+            </div>
+            <h2 className="font-Canopee mt-3 text-4xl font-semibold flex items-center gap-2">
+              WOW CONCEPT
+              <span className="bg-[#DB1807] p-1 text-white text-2xl rounded-md font-medium">
+                NEW
+              </span>
+            </h2>
+            <p className="mt-4 font-CondMedium text-2xl font-thin text-[#383733]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsa
+              doloribus a dolorem ratione minus voluptas totam ullam facilis
+              alias!
+            </p>
+          </div>
+          <div className="w-[30%] border-l-2 border-[#938D86] border-r-2 h-full  text-center px-5">
+            <h2 className="font-CondMedium text-7xl mb-5">ALL WORK!</h2>
+            <h3 className="mb-10 font-NewLight text-5xl font-normal">
+              A Featured selection <br /> the last work - <br /> of the last
+              years.
+            </h3>
+
+            <h5 className=" font-NewLight font-medium">
+              {' '}
+              <span className="font-CondMedium text-lg ml-2">TIP!</span> Drag
+              sideways to navigate
+            </h5>
+          </div>
+          <div className="w-[30%]">
+            <div className="h-[60%] overflow-hidden">
+              <img
+                src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg?"
+                alt="lamp"
+                className="w-full h-full object-cover hover:scale-110 transition-all cursor-pointer"
+              />
+            </div>
+            <h2 className="font-Canopee mt-3 text-4xl font-semibold flex items-center gap-2">
+              AVRO | KO{' '}
+              <span className="bg-[#DB1807] p-1 text-white text-2xl rounded-md font-medium">
+                new
+              </span>
+            </h2>
+            <p className="mt-4 font-CondMedium text-2xl font-thin text-[#383733]">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consequuntur quae animi dolorum deserunt facilis voluptate illo
+            </p>
+          </div>
+        </section>
+
+        {/* used custom css for animation check in index.css */}
 
         <section className="move py-6 w-full bg-[#C4BCB3] border-t border-[#2f2f2f] border-b whitespace-nowrap overflow-x-auto overflow-y-hidden">
           <h1 className="font-CondMedium">
