@@ -212,6 +212,45 @@ const App = () => {
             </div>
           </div>
         </section>
+
+        {/* start new section here */}
+        {/* use custom css for animation check in index.css */}
+
+        <section className="move py-6 w-full bg-[#C4BCB3] border-t border-[#2f2f2f] border-b whitespace-nowrap overflow-x-auto overflow-y-hidden">
+          <h1 className="font-CondMedium">
+            Lets create something together{' '}
+            <span className="font-Canopee">Email me</span>
+          </h1>
+          <h1 className="font-CondMedium">
+            Lets create something together{' '}
+            <span className="font-Canopee">Email me</span>
+          </h1>
+          <h1 className="font-CondMedium">
+            Lets create something together{' '}
+            <span className="font-Canopee">Email me</span>
+          </h1>
+        </section>
+        <footer className="flex justify-between items-center bg-[#c4bcb3] w-full h-[100%] px-5 py-10  ">
+          <div className="flex gap-3 items-center">
+            <h1 className="font-Canopee text-2xl font-semibold">
+              MIRANDA&copy;
+            </h1>
+            <img
+              src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png"
+              alt="icon"
+              className="h-[50px]"
+            />
+            <h2 className="font-Canopee text-xl font-semibold">LEGAL</h2>
+          </div>
+          <div>
+            <ul className="flex items-center gap-4 font-CondMedium font-semibold text-xl">
+              <li className="cursor-pointer">TWITTER</li>
+              <li className="cursor-pointer">INSTAGRAM</li>
+              <li className="cursor-pointer">DRIBBBLE</li>
+              <li className="cursor-pointer">BEHANCE</li>
+            </ul>
+          </div>
+        </footer>
       </div>
     </>
   );
