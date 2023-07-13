@@ -17,6 +17,9 @@ const App = () => {
     tl.to(wrapepr.current, { y: '100vh', scale: 0.6, duration: 0 });
     tl.to(wrapepr.current, { y: '30vh', duration: 1, delay: 1 });
     tl.to(wrapepr.current, { y: '0vh', rotate: 360, scale: 1, duration: 0.8 });
+    return () => {
+      clearInterval(scroll);
+    };
   });
 
   return (
@@ -119,6 +122,7 @@ const App = () => {
           </div>
         </section>
 
+        {/* start new section here */}
         <section className="py-10 bg-[#C5BEB4] relative">
           <h1 className="uppercase font-Canopee bg-[#1c1c19] text-[550px]/[500px] tracking-[-10px] text-[#C4BCB3] w-fit font-thin ml-[2%] px-[20px]">
             Website
@@ -130,10 +134,11 @@ const App = () => {
           ></img>
         </section>
 
-        <section className="w-full flex items-center justify-between bg-[#C4BCB3] px-5">
-          <div className="w-[60%] border-[#938D86] border-r-2 px-[60px] py-[80px] h-full">
-            <div className="flex justify-between items-stretch my-5">
-              <div className="w-50%] border-[#938D86] border-r-2  px-4 mr-5">
+        {/* start new section here */}
+        <section className="w-full flex justify-between bg-[#C4BCB3] px-5">
+          <div className="w-[65%] h-full border-[#938D86] border-r-2 px-[60px] py-[80px] ">
+            <div className="flex  justify-between items-stretch">
+              <div className="w-[50%] border-[#938D86] border-r-2 px-5 py-5 ">
                 <h2 className="font-CondMedium text-6xl mb-5">
                   UPCOMMING NEXT
                 </h2>
@@ -150,7 +155,7 @@ const App = () => {
                   Click on the image to explore
                 </h5>
               </div>
-              <div className="w-[50%] px-4">
+              <div className="w-[50%] px-5 py-5">
                 <div className="h-[60%] overflow-hidden">
                   <img
                     src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/645b5c79f349770ebcc28ec4_thumbnail-small.webp?"
@@ -177,8 +182,13 @@ const App = () => {
             </div>
           </div>
 
-          <div className="w-[40%]">
-            <p>
+          <div className="w-[35%] px-[60px] py-[80px]">
+            <h1 className="font-Canopee text-8xl font-thin text-center mb-10">
+              THINK, CREATE <br />{' '}
+              <span className="font-semibold text-[150px]">DELIVER</span>
+            </h1>
+
+            <p className="text-4xl font-CondMedium font-thin text-[#2f2f2f] mb-[150px]">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic,
               obcaecati. Ut tempora doloribus consequatur odio perspiciatis
               neque minima sapiente delectus. <br />
@@ -187,12 +197,18 @@ const App = () => {
               sapiente consequatur laboriosam quae cupiditate velit impedit eum
               quisquam excepturi.
             </p>
-            <div>
+
+            {/* note added the class animation to apply hover effect for h1 and img code in index.css */}
+
+            <div className="h-[260px] bg-[#CAC1B6] border border-[#2f2f2fc6] rounded-[50%] w-full flex items-center justify-center flex-nowrap overflow-hidden  hover:cursor-pointer animation">
               <img
                 src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/61001a3509319b6ae39e156b_arrow-long.svg"
-                alt=""
+                alt="icon"
+                className="h-[60px] transition ease-in duration-500 translate-x-[-120%]"
               />
-              <h1>All Work</h1>
+              <h1 className="text-8xl font-thin font-Canopee w-full h-full flex items-center justify-center translate-x-[-26%] transition ease-in duration-500">
+                All Work
+              </h1>
             </div>
           </div>
         </section>

@@ -25,3 +25,11 @@ html {
   src: url('./assets/EditorialNew-Light.woff2');
   format: ('woff2');
 }
+
+.animation:hover img {
+  transform: translateX(76%);
+}
+
+.animation:hover h1 {
+  transform: translateX(100%);
+}
